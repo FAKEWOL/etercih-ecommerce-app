@@ -1,0 +1,70 @@
+# Visual Studio and .NET Core files
+## Ignore Visual Studio temporary files, build results, and user-specific settings
+.vs/
+*.suo
+*.user
+*.log
+*.pdb
+*.opendb
+*.dbmdl
+
+## Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Oo]ut/
+build/
+dist/
+publish/
+
+## NuGet packages
+packages/
+.nuget/
+project.lock.json # Old .NET Core lock file
+# project.assets.json is usually inside obj/ and covered by obj/
+
+## Rider IDE files
+.idea/
+*.sln.DotSettings
+*.csproj.DotSettings
+
+## VS Code IDE files
+.vscode/
+
+## Resharper files
+*.resharper
+*.DotSettings.user
+
+## Test results
+TestResults/
+*.trx
+
+## SQL Server files (local development databases)
+*.mdf
+*.ldf
+*.sdf
+*.bak
+*.dacpac
+
+## Environment-specific configuration files (sensitive data or local overrides)
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+appsettings.Test.json
+# Keep appsettings.json for default values
+
+## Client-side dependencies (if any, common for web projects)
+node_modules/
+bower_components/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+## Other common temporary files
+*.tmp
+*.bak
+*.swp
+*.userprefs
+*.DS_Store
+Thumbs.db
